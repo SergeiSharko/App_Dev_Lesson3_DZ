@@ -19,7 +19,8 @@ namespace Lesson3_DZ
             int countExit = 0;
             while (stackPath.Count > 0)
             {
-                var current = stackPath.Pop();                
+                var current = stackPath.Pop();
+                var next = 0;
 
                 if (labirynth[current.Item1, current.Item2] == 2)
                 {
